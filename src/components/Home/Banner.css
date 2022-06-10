@@ -1,6 +1,6 @@
 .banner-title {
     font-size: 35px;
-    white-space: wrap;
+    white-space: nowrap;
     position: relative;
     color: transparent;
 }
