@@ -7,7 +7,7 @@ const Projects = () => {
 
 
     useEffect(() => {
-        fetch('http://localhost:5000/projects')
+        fetch('https://desolate-citadel-04738.herokuapp.com/projects')
             .then(res => res.json())
             .then(data => setProjects(data))
     }, [])

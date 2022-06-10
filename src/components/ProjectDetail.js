@@ -6,25 +6,25 @@ const ProjectDetail = () => {
     const [projectDetail, setProjectDetail] = useState({})
 
     useEffect(() => {
-        fetch(`http://localhost:5000/projects/${pId}`)
+        fetch(`https://desolate-citadel-04738.herokuapp.com/projects/${pId}`)
             .then(res => res.json())
             .then(data => setProjectDetail(data))
     }, [pId])
 
     return (
-        <div className='my-20 w-2/3 mx-auto shadow-xl rounded-2xl p-11'>
-            <div className='bg-slate-500 mx-auto h-80 w-1/2 rounded-3xl shadow-lg'>
-                <img className='w-3/4 pt-16 mx-auto rounded' src={projectDetail.img} alt="" />
+        <div className='my-20 w-full lg:w-2/3 mx-auto shadow-xl rounded-2xl p-11'>
+            <div className='bg-slate-500 mx-auto h-80 w-full lg:w-3/4 rounded-3xl shadow-lg'>
+                <img className='w-full lg:w-3/4 lg:pt-8 pt-20 mx-auto rounded' src={projectDetail.img} alt="" />
             </div>
             <p className='text-2xl text-slate mt-5 text-center font-semibold'>Photo Gallery</p>
-            <div className='grid mt-10 gap-x-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-4'>
-                <div className='flex items-center'>
+            <div className='grid border-slate-600 mt-10 gap-x-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-4'>
+                <div className='flex  my-4 items-center'>
                     <img className='rounded py-' src={projectDetail.img1} alt="" />
                 </div>
-                <div className='flex items-center'>
+                <div className='flex my-4 items-center'>
                     <img className='rounded py-' src={projectDetail.img2} alt="" />
                 </div>
-                <div className='flex items-center'>
+                <div className='flex my-4 items-center'>
                     <img className='rounded py-' src={projectDetail.img3} alt="" />
                 </div>
             </div>
