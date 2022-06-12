@@ -38,7 +38,11 @@ const Banner = () => {
                                 data-aos="fade-right" className='text-3xl font-bold text-orange-300'>Mongo DB</h2>
                         </div>
                     </div>
-                    <a rel='noreferrer' target='_blank' href='./PUSPOK PROTIM SAHA resume (2).pdf' download> <button class="btn text-black bg-gradient-to-r from-secondary to-primary">Download Resume</button></a>
+                    <div>
+                        <a rel='noreferrer' target='_blank' href='./PUSPOK PROTIM SAHA resume (2).pdf' download> <button class="btn  bg-gradient-to-r text-xl text-white from-secondary to-primary">Download Resume</button></a>
+
+                        <a href="https://www.linkedin.com/in/puspok-protim-saha-39230b225/"><button className='btn bg-red-500 mx-4 text-xl text-white  hover:btn-outline'>Hire me</button></a>
+                    </div>
                 </div>
             </div>
         </div>
