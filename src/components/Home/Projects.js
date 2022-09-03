@@ -21,9 +21,8 @@ const Projects = () => {
             <h1 className='my-8 text-5xl font-semibold text-center text-slate-600'>My Projects</h1>
             <div className='grid px-4 gap-x-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
                 {
-                    projects.map(project =>
+                    projects && projects.map(project =>
                         <div
-
                             key={project._id} class="card my-5  bg-base-100 shadow-xl">
                             <figure class="px-2 pt-3">
                                 <img src={project.img} alt="Shoes" class="rounded-xl" />

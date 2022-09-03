@@ -39,9 +39,9 @@ const Banner = () => {
                         </div>
                     </div>
                     <div>
-                        <a rel='noreferrer' target='_blank' href='./PUSPOK PROTIM SAHA resume (2).pdf' download> <button class="btn  bg-gradient-to-r text-xl text-white from-secondary to-primary">Download Resume</button></a>
+                        <a rel='noreferrer' target='_blank' href='https://drive.google.com/file/d/1SgXxGOlZ-fBc424VATWmZuqXkGeQTBKg/view?usp=sharing' > <button class="btn  bg-gradient-to-r text-xl text-white from-secondary to-primary">Download Resume</button></a>
 
-                        <a href="https://www.linkedin.com/in/puspok-protim-saha-39230b225/"><button className='btn bg-red-500 mx-4 text-xl text-white  hover:btn-outline'>Hire me</button></a>
+                        <a rel='noreferrer' href="https://www.linkedin.com/in/puspok-protim-saha-39230b225/" target='_blank'><button className='btn bg-red-500 mx-4 text-xl text-white  hover:btn-outline'>Hire me</button></a>
                     </div>
                 </div>
             </div>
